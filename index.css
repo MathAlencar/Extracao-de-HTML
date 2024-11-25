@@ -1,0 +1,82 @@
+body{
+  width: 90vw;
+  height: 90vh;
+  padding-top: 5rem;
+  padding-left: 2rem;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://catracalivre.com.br/cdn-cgi/image/f=auto,q=60,w=1280,h=680,fit=cover,format=jpeg/wp-content/uploads/2019/11/londres.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.button-block{
+  height: 80px;
+  width: 160px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  margin-left: 2px;
+  background-color: rgb(156, 156, 156);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: rgb(138, 138, 138);
+  border-style:solid;
+  font-weight: 900;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.button-block:hover{
+    scale: 0.99;
+    cursor: pointer;
+}
+
+#corpo{
+  height: auto;
+  width: 30rem;
+  border-radius: 25px;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: rgb(255, 255, 255);
+}
+
+#nav-corpo{
+  border-radius: 25px;
+  height: 10rem;
+  width: 50rem;
+}
+
+#text-value{
+  width: 30rem;
+  height: 5rem;
+  text-align: center;
+}
+
+.content-centralize{
+  display: flex;
+}
+
+.btn-simple{
+  margin-top: 1rem;
+  height: 3rem;
+  width: 10rem;
+  border-radius: 25px;
+  border-width: 1px;
+  background-color: rgb(156, 156, 156);
+  color: white;
+  font-weight: 900;
+}
+
+.btn-simple:hover{
+  cursor: pointer;
+  scale: 0.99;
+}
+
+h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  font-size: 3rem;
+}
